@@ -28,7 +28,7 @@ function areRemoteChanges() {
         console.error(`Error checking for remote changes: ${error.message}`);
         resolve(false); // Handle errors by assuming no changes
       } else {
-        // Check if the output contains the string "new commits" to detect remote changes
+        // Check if the output is empty
         resolve(stdout.trim() !== '');
       }
     });
