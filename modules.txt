@@ -1,0 +1,6 @@
+axios
+ws
+ulid
+@faker-js/faker
+figlet
+node-bash-title --save
